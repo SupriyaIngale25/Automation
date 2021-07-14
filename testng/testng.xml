@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Suite">
+
+   	 <test name="HomePage testing">
+		<classes>
+			<class name="com.testclasses.HomePageTesting" />
+		</classes>
+	</test> 
+ 
+	<test name="FAD test for VIP profiles">
+		<classes>
+			<class name="com.testclasses.FAD_Page_Testing" />
+		</classes>
+	</test> 
+		
+	<test name="EOS Widget testing for doctors">
+		<classes>
+			<class name="com.testclasses.EOS_ProfilePage_Testing" />
+		</classes>
+	</test> 
+
+</suite> <!-- Suite -->

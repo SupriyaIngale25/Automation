@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="295503" started-at="2021-07-14T06:25:17Z" finished-at="2021-07-14T06:30:13Z">
+    <groups>
+    </groups>
+    <test name="HomePage testing" duration-ms="49267" started-at="2021-07-14T06:25:17Z" finished-at="2021-07-14T06:26:06Z">
+      <class name="com.testclasses.HomePageTesting">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.testclasses.HomePageTesting@3b81a1bc]" name="init" is-config="true" duration-ms="8752" started-at="2021-07-14T11:55:17Z" finished-at="2021-07-14T11:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="HomePageLoadTest(java.lang.String)[pri:0, instance:com.testclasses.HomePageTesting@3b81a1bc]" name="HomePageLoadTest" duration-ms="7892" started-at="2021-07-14T11:55:26Z" data-provider="data-provider" finished-at="2021-07-14T11:55:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.mountsinai.org/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageLoadTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testclasses.HomePageTesting@3b81a1bc]" name="tearDown" is-config="true" duration-ms="635" started-at="2021-07-14T11:55:34Z" finished-at="2021-07-14T11:55:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageLoadTest status=SUCCESS method=HomePageTesting.HomePageLoadTest(java.lang.String)[pri:0, instance:com.testclasses.HomePageTesting@3b81a1bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="generalVerificationHomePage()[pri:0, instance:com.testclasses.HomePageTesting@3b81a1bc]" name="generalVerificationHomePage" duration-ms="28437" started-at="2021-07-14T11:55:34Z" finished-at="2021-07-14T11:56:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generalVerificationHomePage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testclasses.HomePageTesting@3b81a1bc]" name="tearDown" is-config="true" duration-ms="236" started-at="2021-07-14T11:56:03Z" finished-at="2021-07-14T11:56:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=generalVerificationHomePage status=SUCCESS method=HomePageTesting.generalVerificationHomePage()[pri:0, instance:com.testclasses.HomePageTesting@3b81a1bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="FinishTesting()[pri:0, instance:com.testclasses.HomePageTesting@3b81a1bc]" name="FinishTesting" is-config="true" duration-ms="3187" started-at="2021-07-14T11:56:03Z" finished-at="2021-07-14T11:56:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinishTesting -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.testclasses.HomePageTesting@3b81a1bc]" name="endReport" is-config="true" duration-ms="105" started-at="2021-07-14T11:56:06Z" finished-at="2021-07-14T11:56:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.testclasses.HomePageTesting -->
+    </test> <!-- HomePage testing -->
+    <test name="FAD test for VIP profiles" duration-ms="232581" started-at="2021-07-14T06:26:06Z" finished-at="2021-07-14T06:29:59Z">
+      <class name="com.testclasses.FAD_Page_Testing">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.testclasses.FAD_Page_Testing@15975490]" name="init" is-config="true" duration-ms="7022" started-at="2021-07-14T11:56:06Z" finished-at="2021-07-14T11:56:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="VerifyVIPProfiles(java.lang.String)[pri:0, instance:com.testclasses.FAD_Page_Testing@15975490]" name="VerifyVIPProfiles" duration-ms="220458" started-at="2021-07-14T11:56:14Z" data-provider="data-provider" finished-at="2021-07-14T11:59:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.mountsinai.org/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyVIPProfiles -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testclasses.FAD_Page_Testing@15975490]" name="tearDown" is-config="true" duration-ms="257" started-at="2021-07-14T11:59:54Z" finished-at="2021-07-14T11:59:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyVIPProfiles status=SUCCESS method=FAD_Page_Testing.VerifyVIPProfiles(java.lang.String)[pri:0, instance:com.testclasses.FAD_Page_Testing@15975490] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="FinishTesting()[pri:0, instance:com.testclasses.FAD_Page_Testing@15975490]" name="FinishTesting" is-config="true" duration-ms="4719" started-at="2021-07-14T11:59:54Z" finished-at="2021-07-14T11:59:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinishTesting -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.testclasses.FAD_Page_Testing@15975490]" name="endReport" is-config="true" duration-ms="118" started-at="2021-07-14T11:59:59Z" finished-at="2021-07-14T11:59:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.testclasses.FAD_Page_Testing -->
+    </test> <!-- FAD test for VIP profiles -->
+    <test name="EOS Widget testing for doctors" duration-ms="13582" started-at="2021-07-14T06:29:59Z" finished-at="2021-07-14T06:30:13Z">
+      <class name="com.testclasses.EOS_ProfilePage_Testing">
+        <test-method status="PASS" signature="setReport()[pri:0, instance:com.testclasses.EOS_ProfilePage_Testing@6537cf78]" name="setReport" is-config="true" duration-ms="542" started-at="2021-07-14T11:55:17Z" finished-at="2021-07-14T11:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.testclasses.EOS_ProfilePage_Testing@6537cf78]" name="init" is-config="true" duration-ms="7272" started-at="2021-07-14T11:59:59Z" finished-at="2021-07-14T12:00:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="VerifyEOSProfiles(java.lang.String)[pri:0, instance:com.testclasses.EOS_ProfilePage_Testing@6537cf78]" name="VerifyEOSProfiles" duration-ms="3756" started-at="2021-07-14T12:00:06Z" data-provider="data-provider" finished-at="2021-07-14T12:00:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.mountsinai.org/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEOSProfiles -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testclasses.EOS_ProfilePage_Testing@6537cf78]" name="tearDown" is-config="true" duration-ms="175" started-at="2021-07-14T12:00:10Z" finished-at="2021-07-14T12:00:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyEOSProfiles status=SUCCESS method=EOS_ProfilePage_Testing.VerifyEOSProfiles(java.lang.String)[pri:0, instance:com.testclasses.EOS_ProfilePage_Testing@6537cf78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="FinishTesting()[pri:0, instance:com.testclasses.EOS_ProfilePage_Testing@6537cf78]" name="FinishTesting" is-config="true" duration-ms="2162" started-at="2021-07-14T12:00:10Z" finished-at="2021-07-14T12:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinishTesting -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.testclasses.EOS_ProfilePage_Testing@6537cf78]" name="endReport" is-config="true" duration-ms="215" started-at="2021-07-14T12:00:12Z" finished-at="2021-07-14T12:00:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="closeExtent()[pri:0, instance:com.testclasses.EOS_ProfilePage_Testing@6537cf78]" name="closeExtent" is-config="true" duration-ms="95" started-at="2021-07-14T12:00:13Z" finished-at="2021-07-14T12:00:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeExtent -->
+      </class> <!-- com.testclasses.EOS_ProfilePage_Testing -->
+    </test> <!-- EOS Widget testing for doctors -->
+  </suite> <!-- Suite -->
+</testng-results>
